@@ -1,0 +1,162 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=D:\!github\!!GIT\SiloVibrationMeter\software\firmware\main.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC706
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\Program Files (x86)\Microchip\mplabc30\v3.31\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|delay.c|E:\szkola\dr\schematy\acc\software\spi_sw.c|E:\szkola\dr\schematy\acc\software\enc.c|E:\szkola\dr\schematy\acc\software\net.c|E:\szkola\dr\schematy\acc\software\inet_addr.c|dhcp.c|analog.c|cpu.c|rand_seed.c||<obj>||<lib>||<lkr>|linker_706.gld||
+SuiteArgsString=
+ToolArgsString=-g -Wall -mconst-in-code -funroll-loops -fomit-frame-pointer
+TraceCmdString=
+DebugOptions=
+[File001]
+Location=D:\!github\!!GIT\SiloVibrationMeter\software\firmware\delay.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC706
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\Program Files (x86)\Microchip\mplabc30\v3.31\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|delay.c|E:\szkola\dr\schematy\acc\software\spi_sw.c|E:\szkola\dr\schematy\acc\software\enc.c|E:\szkola\dr\schematy\acc\software\net.c|E:\szkola\dr\schematy\acc\software\inet_addr.c|dhcp.c|analog.c|cpu.c|rand_seed.c||<obj>||<lib>||<lkr>|linker_706.gld||
+SuiteArgsString=
+ToolArgsString=-g -Wall -mconst-in-code -funroll-loops -fomit-frame-pointer
+TraceCmdString=
+DebugOptions=
+[File002]
+Location=D:\!github\!!GIT\SiloVibrationMeter\software\firmware\spi_sw.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC706
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\Program Files (x86)\Microchip\mplabc30\v3.31\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|delay.c|E:\szkola\dr\schematy\acc\software\spi_sw.c|E:\szkola\dr\schematy\acc\software\enc.c|E:\szkola\dr\schematy\acc\software\net.c|E:\szkola\dr\schematy\acc\software\inet_addr.c|dhcp.c|analog.c|cpu.c|rand_seed.c||<obj>||<lib>||<lkr>|linker_706.gld||
+SuiteArgsString=
+ToolArgsString=-g -Wall -mconst-in-code -funroll-loops -fomit-frame-pointer
+TraceCmdString=
+DebugOptions=
+[File003]
+Location=D:\!github\!!GIT\SiloVibrationMeter\software\firmware\enc.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC706
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\Program Files (x86)\Microchip\mplabc30\v3.31\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|delay.c|E:\szkola\dr\schematy\acc\software\spi_sw.c|E:\szkola\dr\schematy\acc\software\enc.c|E:\szkola\dr\schematy\acc\software\net.c|E:\szkola\dr\schematy\acc\software\inet_addr.c|dhcp.c|analog.c|cpu.c|rand_seed.c||<obj>||<lib>||<lkr>|linker_706.gld||
+SuiteArgsString=
+ToolArgsString=-g -Wall -mconst-in-code -funroll-loops -fomit-frame-pointer
+TraceCmdString=
+DebugOptions=
+[File004]
+Location=D:\!github\!!GIT\SiloVibrationMeter\software\firmware\net.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC706
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\Program Files (x86)\Microchip\mplabc30\v3.31\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|delay.c|E:\szkola\dr\schematy\acc\software\spi_sw.c|E:\szkola\dr\schematy\acc\software\enc.c|E:\szkola\dr\schematy\acc\software\net.c|E:\szkola\dr\schematy\acc\software\inet_addr.c|dhcp.c|analog.c|cpu.c|rand_seed.c||<obj>||<lib>||<lkr>|linker_706.gld||
+SuiteArgsString=
+ToolArgsString=-g -Wall -mconst-in-code -funroll-loops -fomit-frame-pointer
+TraceCmdString=
+DebugOptions=
+[File005]
+Location=D:\!github\!!GIT\SiloVibrationMeter\software\firmware\inet_addr.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC706
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\Program Files (x86)\Microchip\mplabc30\v3.31\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|delay.c|E:\szkola\dr\schematy\acc\software\spi_sw.c|E:\szkola\dr\schematy\acc\software\enc.c|E:\szkola\dr\schematy\acc\software\net.c|E:\szkola\dr\schematy\acc\software\inet_addr.c|dhcp.c|analog.c|cpu.c|rand_seed.c||<obj>||<lib>||<lkr>|linker_706.gld||
+SuiteArgsString=
+ToolArgsString=-g -Wall -mconst-in-code -funroll-loops -fomit-frame-pointer
+TraceCmdString=
+DebugOptions=
+[File006]
+Location=D:\!github\!!GIT\SiloVibrationMeter\software\firmware\dhcp.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC706
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\Program Files (x86)\Microchip\mplabc30\v3.31\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|delay.c|E:\szkola\dr\schematy\acc\software\spi_sw.c|E:\szkola\dr\schematy\acc\software\enc.c|E:\szkola\dr\schematy\acc\software\net.c|E:\szkola\dr\schematy\acc\software\inet_addr.c|dhcp.c|analog.c|cpu.c|rand_seed.c||<obj>||<lib>||<lkr>|linker_706.gld||
+SuiteArgsString=
+ToolArgsString=-g -Wall -mconst-in-code -funroll-loops -fomit-frame-pointer
+TraceCmdString=
+DebugOptions=
+[File007]
+Location=D:\!github\!!GIT\SiloVibrationMeter\software\firmware\analog.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC706
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\Program Files (x86)\Microchip\mplabc30\v3.31\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|delay.c|E:\szkola\dr\schematy\acc\software\spi_sw.c|E:\szkola\dr\schematy\acc\software\enc.c|E:\szkola\dr\schematy\acc\software\net.c|E:\szkola\dr\schematy\acc\software\inet_addr.c|dhcp.c|analog.c|cpu.c|rand_seed.c||<obj>||<lib>||<lkr>|linker_706.gld||
+SuiteArgsString=
+ToolArgsString=-g -Wall -mconst-in-code -funroll-loops -fomit-frame-pointer
+TraceCmdString=
+DebugOptions=
+[File008]
+Location=D:\!github\!!GIT\SiloVibrationMeter\software\firmware\cpu.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC706
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\Program Files (x86)\Microchip\mplabc30\v3.31\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|delay.c|E:\szkola\dr\schematy\acc\software\spi_sw.c|E:\szkola\dr\schematy\acc\software\enc.c|E:\szkola\dr\schematy\acc\software\net.c|E:\szkola\dr\schematy\acc\software\inet_addr.c|dhcp.c|analog.c|cpu.c|rand_seed.c||<obj>||<lib>||<lkr>|linker_706.gld||
+SuiteArgsString=
+ToolArgsString=-g -Wall -mconst-in-code -funroll-loops -fomit-frame-pointer
+TraceCmdString=
+DebugOptions=
+[File009]
+Location=D:\!github\!!GIT\SiloVibrationMeter\software\firmware\rand_seed.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC706
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\Program Files (x86)\Microchip\mplabc30\v3.31\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|delay.c|E:\szkola\dr\schematy\acc\software\spi_sw.c|E:\szkola\dr\schematy\acc\software\enc.c|E:\szkola\dr\schematy\acc\software\net.c|E:\szkola\dr\schematy\acc\software\inet_addr.c|dhcp.c|analog.c|cpu.c|rand_seed.c||<obj>||<lib>||<lkr>|linker_706.gld||
+SuiteArgsString=
+ToolArgsString=-g -Wall -funroll-loops -fomit-frame-pointer
+TraceCmdString=
+DebugOptions=
+[File010]
+Location=D:\!github\!!GIT\SiloVibrationMeter\software\firmware\accfrm.cof
+Folder=Output
+DeviceName=dsPIC33FJ128MC706
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=D:\Program Files (x86)\Microchip\mplabc30\v3.31\bin\pic30-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|delay.c|E:\szkola\dr\schematy\acc\software\spi_sw.c|E:\szkola\dr\schematy\acc\software\enc.c|E:\szkola\dr\schematy\acc\software\net.c|E:\szkola\dr\schematy\acc\software\inet_addr.c|dhcp.c|analog.c|cpu.c|rand_seed.c||<obj>||<lib>||<lkr>|linker_706.gld||
+SuiteArgsString=
+ToolArgsString=-Map="$(BINDIR_)$(TARGETBASE).map" --cref --no-handles -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)"
+TraceCmdString=
+DebugOptions=
+[File011]
+Location=D:\!github\!!GIT\SiloVibrationMeter\software\firmware\accfrm.hex
+Folder=Output
+DeviceName=dsPIC33FJ128MC706
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=D:\Program Files (x86)\Microchip\mplabc30\v3.31\bin\pic30-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|delay.c|E:\szkola\dr\schematy\acc\software\spi_sw.c|E:\szkola\dr\schematy\acc\software\enc.c|E:\szkola\dr\schematy\acc\software\net.c|E:\szkola\dr\schematy\acc\software\inet_addr.c|dhcp.c|analog.c|cpu.c|rand_seed.c||<obj>||<lib>||<lkr>|linker_706.gld||
+SuiteArgsString=
+ToolArgsString=-Map="$(BINDIR_)$(TARGETBASE).map" --cref --no-handles -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)"
+TraceCmdString=
+DebugOptions=
+[TOOL_LOC_STAMPS]
+tool_loc{069BD372-6CA0-40D4-BF2F-5DC806D05083}=D:\Program Files (x86)\Microchip\mplabc30\v3.31\bin\pic30-gcc.exe
+tool_loc{433C3D55-811D-409D-A6BF-159CF9355B42}=D:\Program Files (x86)\Microchip\mplabc30\v3.31\bin\pic30-ld.exe

@@ -1,0 +1,87 @@
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+	WSADATA data;
+	int result = WSAStartup(0x0002, &data);
+
+	SOCKET s = socket(AF_INET, SOCK_DGRAM, 0);
+	ULONG flag = true;
+	result = setsockopt(s, SOL_SOCKET, SO_BROADCAST, (char*)&flag, sizeof(ULONG));
+	result = setsockopt(s, SOL_SOCKET, SO_REUSEADDR, (char*)&flag, sizeof(ULONG));
+
+	struct DHCP_MESSAGE msg, response;
+	int msg_len, response_len;
+
+	sockaddr_in bootp_client;
+	bootp_client.sin_family = AF_INET;
+	bootp_client.sin_port = htons(68);
+	bootp_client.sin_addr.s_addr = INADDR_ANY;
+	result = bind(s, (sockaddr*)&bootp_client, sizeof(sockaddr_in));
+	assert(result != SOCKET_ERROR);
+
+	sockaddr_in bc;
+	bc.sin_family = AF_INET;
+	bc.sin_port = htons(67);
+	bc.sin_addr.s_addr = INADDR_BROADCAST;
+
+while(1)
+{
+		DWORD xid = time(NULL);
+
+		printf("*");
+
+		BYTE hwaddr[] = {0x00, 0x11, 0x22, 0x33, 0x44, 0x55/*(byte)xid*/};
+		msg_len = init_dhcp_discover_msg(&msg, hwaddr, xid);
+		int q = sendto(s, (char*)&msg, msg_len, 0, (sockaddr*)&bc, sizeof(sockaddr_in));
+
+		Sleep(500);
+
+	wait1:
+		sockaddr_in dhcps;
+		int sl = sizeof(sockaddr_in);
+		response_len = recvfrom(s, (char*)&response, sizeof(DHCP_MESSAGE), 0, (sockaddr*)&dhcps, &sl);
+
+		if (response.xid != htonl(xid))
+			goto wait1;
+
+		DHCP_INFO dhcp_info;
+		BOOL b = decode_dhcp_info(&response, response_len, &dhcp_info);
+
+
+
+		if (dhcp_info.type == DHCPOFFER)
+		{
+			DHCP_MESSAGE rmsg;
+			//xid++;
+			int size = init_dhcp_request_msg(&rmsg, hwaddr, xid, dhcp_info.ipaddr, dhcp_info.serveraddr);
+			int q = sendto(s, (char*)&rmsg, size, 0, (sockaddr*)&bc, sizeof(sockaddr_in));
+
+			Sleep(500);
+
+	wait2:
+			sockaddr_in dhcps;
+			int sl = sizeof(sockaddr_in);
+			response_len = recvfrom(s, (char*)&response, sizeof(DHCP_MESSAGE), 0, (sockaddr*)&dhcps, &sl);
+			
+			if (response.xid != htonl(xid))
+				goto wait2;
+
+			BOOL b = decode_dhcp_info(&response, response_len, &dhcp_info);
+			if (dhcp_info.type == DHCPACK)
+			{
+				// okej!
+				printf("DHCP dhcp = %s\n", ipaddr(dhcp_info.serveraddr));
+				printf("DHCP IP = %s\n", ipaddr(dhcp_info.ipaddr));
+				printf("DHCP maska = %s\n", ipaddr(dhcp_info.netmask));
+				printf("DHCP brama = %s\n", ipaddr(dhcp_info.gateway));
+				printf("+");
+			} else
+				printf("- %d", dhcp_info.type);
+
+		}
+
+		Sleep(500);
+	}
+	getchar();
+	return 0;
+}

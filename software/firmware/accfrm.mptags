@@ -1,0 +1,425 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+ARP_HARDWARE_ETHERNET::0x0100	E:\szkola\dr\schematy\acc\software\net.h	97;"	d	line:97
+ARP_HEADER	E:\szkola\dr\schematy\acc\software\net.h	87;"	t	line:87
+ARP_OPCODE_REPLY::0x0200	E:\szkola\dr\schematy\acc\software\net.h	101;"	d	line:101
+ARP_OPCODE_REQUEST::0x0100	E:\szkola\dr\schematy\acc\software\net.h	100;"	d	line:100
+ARP_PROTOCOL_IP::0x0008	E:\szkola\dr\schematy\acc\software\net.h	98;"	d	line:98
+BANK0::0b00000000	E:\szkola\dr\schematy\acc\software\enc.h	23;"	d	line:23
+BANK1::0b00100000	E:\szkola\dr\schematy\acc\software\enc.h	24;"	d	line:24
+BANK2::0b01000000	E:\szkola\dr\schematy\acc\software\enc.h	25;"	d	line:25
+BANK3::0b01100000	E:\szkola\dr\schematy\acc\software\enc.h	26;"	d	line:26
+BANK_MASK::0b01100000	E:\szkola\dr\schematy\acc\software\enc.h	30;"	d	line:30
+BIT_FIELD_CLEAR::0b10100000	E:\szkola\dr\schematy\acc\software\enc.h	332;"	d	line:332
+BIT_FIELD_SET::0b10000000	E:\szkola\dr\schematy\acc\software\enc.h	331;"	d	line:331
+BSEL	E:\szkola\dr\schematy\acc\software\enc.h	236;"	m	line:236	struct:REG_ECON1::<anonymous>
+CS::LATGbits.LATG9	E:\szkola\dr\schematy\acc\software\defs.h	8;"	d	line:8
+CSUMEN	E:\szkola\dr\schematy\acc\software\enc.h	239;"	m	line:239	struct:REG_ECON1::<anonymous>
+CalculateChecksumICMP	E:\szkola\dr\schematy\acc\software\net.c	27;"	f	line:27	signature:(ICMP_HEADER* header, unsigned short icmp_load_length)
+CalculateChecksumICMP	E:\szkola\dr\schematy\acc\software\net.h	108;"	p	line:108	signature:(ICMP_HEADER* header, unsigned short icmp_load_length)
+CalculateChecksumIP	E:\szkola\dr\schematy\acc\software\net.c	21;"	f	line:21	signature:(IP_HEADER* header)
+CalculateChecksumIP	E:\szkola\dr\schematy\acc\software\net.h	107;"	p	line:107	signature:(IP_HEADER* header)
+DMAST	E:\szkola\dr\schematy\acc\software\enc.h	240;"	m	line:240	struct:REG_ECON1::<anonymous>
+DUMMY_MASK::0b10000000	E:\szkola\dr\schematy\acc\software\enc.h	31;"	d	line:31
+DUMMY_TRANSFER::0b10000000	E:\szkola\dr\schematy\acc\software\enc.h	27;"	d	line:27
+Delay10us	E:\szkola\dr\schematy\acc\software\delay.c	7;"	f	line:7	signature:(unsigned short times)
+Delay10us	E:\szkola\dr\schematy\acc\software\delay.h	4;"	p	line:4	signature:(unsigned short times)
+DelayMS	E:\szkola\dr\schematy\acc\software\delay.c	22;"	f	line:22	signature:(unsigned short ms)
+DelayMS	E:\szkola\dr\schematy\acc\software\delay.h	5;"	p	line:5	signature:(unsigned short ms)
+EBSTCON::BANK3|0x07	E:\szkola\dr\schematy\acc\software\enc.h	117;"	d	line:117
+EBSTCSH::BANK3|0x09	E:\szkola\dr\schematy\acc\software\enc.h	119;"	d	line:119
+EBSTCSL::BANK3|0x08	E:\szkola\dr\schematy\acc\software\enc.h	118;"	d	line:118
+EBSTSD::BANK3|0x06	E:\szkola\dr\schematy\acc\software\enc.h	116;"	d	line:116
+ECOCON::BANK3|0x15	E:\szkola\dr\schematy\acc\software\enc.h	122;"	d	line:122
+ECON1::0x1F	E:\szkola\dr\schematy\acc\software\enc.h	133;"	d	line:133
+ECON1_BSEL0::0b00000001	E:\szkola\dr\schematy\acc\software\enc.h	160;"	d	line:160
+ECON1_BSEL1::0b00000010	E:\szkola\dr\schematy\acc\software\enc.h	159;"	d	line:159
+ECON1_CSUMEN::0b00010000	E:\szkola\dr\schematy\acc\software\enc.h	156;"	d	line:156
+ECON1_DMAST::0b00100000	E:\szkola\dr\schematy\acc\software\enc.h	155;"	d	line:155
+ECON1_RXEN::0b00000100	E:\szkola\dr\schematy\acc\software\enc.h	158;"	d	line:158
+ECON1_RXRST::0b01000000	E:\szkola\dr\schematy\acc\software\enc.h	154;"	d	line:154
+ECON1_TXRST::0b10000000	E:\szkola\dr\schematy\acc\software\enc.h	153;"	d	line:153
+ECON1_TXRTS::0b00001000	E:\szkola\dr\schematy\acc\software\enc.h	157;"	d	line:157
+ECON2::0x1E	E:\szkola\dr\schematy\acc\software\enc.h	132;"	d	line:132
+ECON2_AUTOINC::0b10000000	E:\szkola\dr\schematy\acc\software\enc.h	165;"	d	line:165
+ECON2_PKTDEC::0b01000000	E:\szkola\dr\schematy\acc\software\enc.h	164;"	d	line:164
+ECON2_PWRSV::0b00100000	E:\szkola\dr\schematy\acc\software\enc.h	163;"	d	line:163
+ECON2_VRPS::0b00001000	E:\szkola\dr\schematy\acc\software\enc.h	162;"	d	line:162
+EDMACSH::BANK0|0x17	E:\szkola\dr\schematy\acc\software\enc.h	63;"	d	line:63
+EDMACSL::BANK0|0x16	E:\szkola\dr\schematy\acc\software\enc.h	62;"	d	line:62
+EDMADSTH::BANK0|0x15	E:\szkola\dr\schematy\acc\software\enc.h	61;"	d	line:61
+EDMADSTL::BANK0|0x14	E:\szkola\dr\schematy\acc\software\enc.h	60;"	d	line:60
+EDMANDH::BANK0|0x13	E:\szkola\dr\schematy\acc\software\enc.h	59;"	d	line:59
+EDMANDL::BANK0|0x12	E:\szkola\dr\schematy\acc\software\enc.h	58;"	d	line:58
+EDMASTH::BANK0|0x11	E:\szkola\dr\schematy\acc\software\enc.h	57;"	d	line:57
+EDMASTL::BANK0|0x10	E:\szkola\dr\schematy\acc\software\enc.h	56;"	d	line:56
+EFLOCON::BANK3|0x17	E:\szkola\dr\schematy\acc\software\enc.h	123;"	d	line:123
+EHT0::BANK1|0x00	E:\szkola\dr\schematy\acc\software\enc.h	65;"	d	line:65
+EHT1::BANK1|0x01	E:\szkola\dr\schematy\acc\software\enc.h	66;"	d	line:66
+EHT2::BANK1|0x02	E:\szkola\dr\schematy\acc\software\enc.h	67;"	d	line:67
+EHT3::BANK1|0x03	E:\szkola\dr\schematy\acc\software\enc.h	68;"	d	line:68
+EHT4::BANK1|0x04	E:\szkola\dr\schematy\acc\software\enc.h	69;"	d	line:69
+EHT5::BANK1|0x05	E:\szkola\dr\schematy\acc\software\enc.h	70;"	d	line:70
+EHT6::BANK1|0x06	E:\szkola\dr\schematy\acc\software\enc.h	71;"	d	line:71
+EHT7::BANK1|0x07	E:\szkola\dr\schematy\acc\software\enc.h	72;"	d	line:72
+EIE::0x1B	E:\szkola\dr\schematy\acc\software\enc.h	129;"	d	line:129
+EIE_DMAIE::0b00100000	E:\szkola\dr\schematy\acc\software\enc.h	169;"	d	line:169
+EIE_INTIE::0b10000000	E:\szkola\dr\schematy\acc\software\enc.h	167;"	d	line:167
+EIE_LINKIE::0b00010000	E:\szkola\dr\schematy\acc\software\enc.h	170;"	d	line:170
+EIE_PKTIE::0b01000000	E:\szkola\dr\schematy\acc\software\enc.h	168;"	d	line:168
+EIE_RXERIE::0b00000001	E:\szkola\dr\schematy\acc\software\enc.h	173;"	d	line:173
+EIE_TXERIE::0b00000010	E:\szkola\dr\schematy\acc\software\enc.h	172;"	d	line:172
+EIE_TXIE::0b00001000	E:\szkola\dr\schematy\acc\software\enc.h	171;"	d	line:171
+EIR::0x1C	E:\szkola\dr\schematy\acc\software\enc.h	130;"	d	line:130
+ENC_GetReceivedPacketCount	E:\szkola\dr\schematy\acc\software\enc.h	433;"	f	line:433	signature:(void)
+ENC_PHY	E:\szkola\dr\schematy\acc\software\enc.h	231;"	t	line:231
+ENC_ReadControlRegister	E:\szkola\dr\schematy\acc\software\enc.c	53;"	f	line:53	signature:(BYTE banked_reg)
+ENC_ReadControlRegister	E:\szkola\dr\schematy\acc\software\enc.h	406;"	p	line:406	signature:(BYTE banked_reg)
+ENC_ReadMemoryBuffer	E:\szkola\dr\schematy\acc\software\main.c	317;"	f	line:317	signature:(unsigned char* buffer, int count)
+ENC_ReadPHYRegister	E:\szkola\dr\schematy\acc\software\enc.c	118;"	f	line:118	signature:(unsigned char reg)
+ENC_ReadPHYRegister	E:\szkola\dr\schematy\acc\software\enc.h	410;"	p	line:410	signature:(unsigned char reg)
+ENC_ReadPHYRegisters	E:\szkola\dr\schematy\acc\software\enc.c	136;"	f	line:136	signature:(ENC_PHY* phy)
+ENC_ReadPHYRegisters	E:\szkola\dr\schematy\acc\software\enc.h	411;"	p	line:411	signature:(ENC_PHY* phy)
+ENC_ReadRegister	E:\szkola\dr\schematy\acc\software\enc.c	11;"	f	line:11	signature:(BYTE reg_addr)
+ENC_ReadRegister	E:\szkola\dr\schematy\acc\software\enc.h	424;"	p	line:424	signature:(BYTE reg_addr)
+ENC_ReceivePacket	E:\szkola\dr\schematy\acc\software\main.c	20;"	p	line:20	file:	signature:(unsigned char* buffer, unsigned short capacity)
+ENC_ReceivePacket	E:\szkola\dr\schematy\acc\software\main.c	389;"	f	line:389	signature:(unsigned char* buffer, unsigned short capacity)
+ENC_Reset	E:\szkola\dr\schematy\acc\software\enc.c	94;"	f	line:94	signature:(void)
+ENC_Reset	E:\szkola\dr\schematy\acc\software\enc.h	413;"	p	line:413	signature:(void)
+ENC_ResetBit	E:\szkola\dr\schematy\acc\software\enc.c	168;"	f	line:168	signature:(unsigned char banked_reg, unsigned char mask)
+ENC_ResetBit	E:\szkola\dr\schematy\acc\software\enc.h	415;"	p	line:415	signature:(unsigned char banked_reg, unsigned char mask)
+ENC_SendPacket	E:\szkola\dr\schematy\acc\software\main.c	24;"	p	line:24	file:	signature:(const unsigned char* packet, unsigned int length)
+ENC_SendPacket	E:\szkola\dr\schematy\acc\software\main.c	357;"	f	line:357	signature:(const unsigned char* packet, unsigned int length)
+ENC_SetBit	E:\szkola\dr\schematy\acc\software\enc.c	150;"	f	line:150	signature:(unsigned char banked_reg, unsigned char mask)
+ENC_SetBit	E:\szkola\dr\schematy\acc\software\enc.h	416;"	p	line:416	signature:(unsigned char banked_reg, unsigned char mask)
+ENC_SetCurrentBank	E:\szkola\dr\schematy\acc\software\enc.c	39;"	f	line:39	signature:(BYTE banked_reg)
+ENC_SetCurrentBank	E:\szkola\dr\schematy\acc\software\enc.h	422;"	p	line:422	signature:(BYTE banked_reg)
+ENC_SetHardwareAddress	E:\szkola\dr\schematy\acc\software\enc.c	188;"	f	line:188	signature:(const ETH_ADDR *address)
+ENC_SetHardwareAddress	E:\szkola\dr\schematy\acc\software\enc.h	418;"	p	line:418	signature:(const ETH_ADDR *address)
+ENC_SetHardwareAddress	E:\szkola\dr\schematy\acc\software\main.c	25;"	p	line:25	file:	signature:(const ETH_ADDR *address)
+ENC_WriteControlRegister	E:\szkola\dr\schematy\acc\software\enc.c	83;"	f	line:83	signature:(BYTE banked_reg, BYTE value)
+ENC_WriteControlRegister	E:\szkola\dr\schematy\acc\software\enc.h	407;"	p	line:407	signature:(BYTE banked_reg, BYTE value)
+ENC_WritePHYRegister	E:\szkola\dr\schematy\acc\software\enc.c	108;"	f	line:108	signature:(unsigned char reg, unsigned short data)
+ENC_WritePHYRegister	E:\szkola\dr\schematy\acc\software\enc.h	409;"	p	line:409	signature:(unsigned char reg, unsigned short data)
+ENC_WriteRegister	E:\szkola\dr\schematy\acc\software\enc.c	25;"	f	line:25	signature:(BYTE reg_addr, BYTE value)
+ENC_WriteRegister	E:\szkola\dr\schematy\acc\software\enc.h	423;"	p	line:423	signature:(BYTE reg_addr, BYTE value)
+EPAUSH::BANK3|0x19	E:\szkola\dr\schematy\acc\software\enc.h	125;"	d	line:125
+EPAUSL::BANK3|0x18	E:\szkola\dr\schematy\acc\software\enc.h	124;"	d	line:124
+EPKTCNT::BANK1|0x19	E:\szkola\dr\schematy\acc\software\enc.h	88;"	d	line:88
+EPMCSH::BANK1|0x11	E:\szkola\dr\schematy\acc\software\enc.h	82;"	d	line:82
+EPMCSL::BANK1|0x10	E:\szkola\dr\schematy\acc\software\enc.h	81;"	d	line:81
+EPMM0::BANK1|0x08	E:\szkola\dr\schematy\acc\software\enc.h	73;"	d	line:73
+EPMM1::BANK1|0x09	E:\szkola\dr\schematy\acc\software\enc.h	74;"	d	line:74
+EPMM2::BANK1|0x0A	E:\szkola\dr\schematy\acc\software\enc.h	75;"	d	line:75
+EPMM3::BANK1|0x0B	E:\szkola\dr\schematy\acc\software\enc.h	76;"	d	line:76
+EPMM4::BANK1|0x0C	E:\szkola\dr\schematy\acc\software\enc.h	77;"	d	line:77
+EPMM5::BANK1|0x0D	E:\szkola\dr\schematy\acc\software\enc.h	78;"	d	line:78
+EPMM6::BANK1|0x0E	E:\szkola\dr\schematy\acc\software\enc.h	79;"	d	line:79
+EPMM7::BANK1|0x0F	E:\szkola\dr\schematy\acc\software\enc.h	80;"	d	line:80
+EPMOH::BANK1|0x15	E:\szkola\dr\schematy\acc\software\enc.h	84;"	d	line:84
+EPMOL::BANK1|0x14	E:\szkola\dr\schematy\acc\software\enc.h	83;"	d	line:83
+ERDPTH::BANK0|0x01	E:\szkola\dr\schematy\acc\software\enc.h	41;"	d	line:41
+ERDPTL::BANK0|0x00	E:\szkola\dr\schematy\acc\software\enc.h	40;"	d	line:40
+EREVID::BANK3|0x12	E:\szkola\dr\schematy\acc\software\enc.h	121;"	d	line:121
+ERXFCON::BANK1|0x18	E:\szkola\dr\schematy\acc\software\enc.h	87;"	d	line:87
+ERXNDH::BANK0|0x0B	E:\szkola\dr\schematy\acc\software\enc.h	51;"	d	line:51
+ERXNDL::BANK0|0x0A	E:\szkola\dr\schematy\acc\software\enc.h	50;"	d	line:50
+ERXRDPTH::BANK0|0x0D	E:\szkola\dr\schematy\acc\software\enc.h	53;"	d	line:53
+ERXRDPTL::BANK0|0x0C	E:\szkola\dr\schematy\acc\software\enc.h	52;"	d	line:52
+ERXSTH::BANK0|0x09	E:\szkola\dr\schematy\acc\software\enc.h	49;"	d	line:49
+ERXSTL::BANK0|0x08	E:\szkola\dr\schematy\acc\software\enc.h	48;"	d	line:48
+ERXWRPTH::BANK0|0x0F	E:\szkola\dr\schematy\acc\software\enc.h	55;"	d	line:55
+ERXWRPTL::BANK0|0x0E	E:\szkola\dr\schematy\acc\software\enc.h	54;"	d	line:54
+ESTAT::0x1D	E:\szkola\dr\schematy\acc\software\enc.h	131;"	d	line:131
+ETH	E:\szkola\dr\schematy\acc\software\main.c	37;"	s	line:37	file:
+ETH_ADDR	E:\szkola\dr\schematy\acc\software\net.h	14;"	t	line:14
+ETH_HEADER	E:\szkola\dr\schematy\acc\software\net.h	29;"	t	line:29
+ETH_TYPE_ARP::0x0608	E:\szkola\dr\schematy\acc\software\net.h	91;"	d	line:91
+ETH_TYPE_IP4::0x0008	E:\szkola\dr\schematy\acc\software\net.h	90;"	d	line:90
+ETXNDH::BANK0|0x07	E:\szkola\dr\schematy\acc\software\enc.h	47;"	d	line:47
+ETXNDL::BANK0|0x06	E:\szkola\dr\schematy\acc\software\enc.h	46;"	d	line:46
+ETXSTH::BANK0|0x05	E:\szkola\dr\schematy\acc\software\enc.h	45;"	d	line:45
+ETXSTL::BANK0|0x04	E:\szkola\dr\schematy\acc\software\enc.h	44;"	d	line:44
+EWOLIE::BANK1|0x16	E:\szkola\dr\schematy\acc\software\enc.h	85;"	d	line:85
+EWOLIR::BANK1|0x17	E:\szkola\dr\schematy\acc\software\enc.h	86;"	d	line:86
+EWRPTH::BANK0|0x03	E:\szkola\dr\schematy\acc\software\enc.h	43;"	d	line:43
+EWRPTL::BANK0|0x02	E:\szkola\dr\schematy\acc\software\enc.h	42;"	d	line:42
+ICMP_HEADER	E:\szkola\dr\schematy\acc\software\net.h	70;"	t	line:70
+ICMP_TYPE_REPLY::0x00	E:\szkola\dr\schematy\acc\software\net.h	104;"	d	line:104
+ICMP_TYPE_REQUEST::0x08	E:\szkola\dr\schematy\acc\software\net.h	103;"	d	line:103
+IP_ADDR	E:\szkola\dr\schematy\acc\software\net.h	21;"	t	line:21
+IP_HEADER	E:\szkola\dr\schematy\acc\software\net.h	50;"	t	line:50
+IP_TYPE_ICMP::0x01	E:\szkola\dr\schematy\acc\software\net.h	93;"	d	line:93
+IP_TYPE_TCP::0x06	E:\szkola\dr\schematy\acc\software\net.h	94;"	d	line:94
+IP_TYPE_UDP::0x11	E:\szkola\dr\schematy\acc\software\net.h	95;"	d	line:95
+ISASCII::(x)(((x)>=0)&&((x)<=127))	E:\szkola\dr\schematy\acc\software\inet_addr.c	5;"	d	line:5	file:
+ISDIGIT::(x)(((x)>='0')&&((x)<='9'))	E:\szkola\dr\schematy\acc\software\inet_addr.c	6;"	d	line:6	file:
+ISLOWER::(x)(((x)>='a')&&((x)<='z'))	E:\szkola\dr\schematy\acc\software\inet_addr.c	8;"	d	line:8	file:
+ISSPACE::(x)(((x)=='')||((x)=='	E:\szkola\dr\schematy\acc\software\inet_addr.c	10;"	d	line:10	file:
+ISXDIGIT::(x)((((x)>='0')&&((x)<='9'))||	E:\szkola\dr\schematy\acc\software\inet_addr.c	7;"	d	line:7	file:
+InitCPU	E:\szkola\dr\schematy\acc\software\main.c	12;"	p	line:12	file:	signature:(void)
+InitCPU	E:\szkola\dr\schematy\acc\software\main.c	168;"	f	line:168	signature:(void)
+InitENC	E:\szkola\dr\schematy\acc\software\main.c	13;"	p	line:13	file:	signature:(void)
+InitENC	E:\szkola\dr\schematy\acc\software\main.c	255;"	f	line:255	signature:(void)
+InitSPI	E:\szkola\dr\schematy\acc\software\main.c	14;"	p	line:14	file:	signature:(void)
+InitSPI	E:\szkola\dr\schematy\acc\software\main.c	224;"	f	line:224	signature:(void)
+LED0::LATBbits.LATB12	E:\szkola\dr\schematy\acc\software\defs.h	4;"	d	line:4
+LED1::LATBbits.LATB13	E:\szkola\dr\schematy\acc\software\defs.h	5;"	d	line:5
+LED2::LATBbits.LATB14	E:\szkola\dr\schematy\acc\software\defs.h	6;"	d	line:6
+MAADR1::DUMMY_TRANSFER|BANK3|0x04	E:\szkola\dr\schematy\acc\software\enc.h	114;"	d	line:114
+MAADR2::DUMMY_TRANSFER|BANK3|0x05	E:\szkola\dr\schematy\acc\software\enc.h	115;"	d	line:115
+MAADR3::DUMMY_TRANSFER|BANK3|0x02	E:\szkola\dr\schematy\acc\software\enc.h	112;"	d	line:112
+MAADR4::DUMMY_TRANSFER|BANK3|0x03	E:\szkola\dr\schematy\acc\software\enc.h	113;"	d	line:113
+MAADR5::DUMMY_TRANSFER|BANK3|0x00	E:\szkola\dr\schematy\acc\software\enc.h	110;"	d	line:110
+MAADR6::DUMMY_TRANSFER|BANK3|0x01	E:\szkola\dr\schematy\acc\software\enc.h	111;"	d	line:111
+MABBIPG::DUMMY_TRANSFER|BANK2|0x04	E:\szkola\dr\schematy\acc\software\enc.h	94;"	d	line:94
+MACLCON1::DUMMY_TRANSFER|BANK2|0x08	E:\szkola\dr\schematy\acc\software\enc.h	97;"	d	line:97
+MACLCON2::DUMMY_TRANSFER|BANK2|0x09	E:\szkola\dr\schematy\acc\software\enc.h	98;"	d	line:98
+MACON1::DUMMY_TRANSFER|BANK2|0x00	E:\szkola\dr\schematy\acc\software\enc.h	90;"	d	line:90
+MACON1_MARXEN::0b00000001	E:\szkola\dr\schematy\acc\software\enc.h	178;"	d	line:178
+MACON1_PASALL::0b00000010	E:\szkola\dr\schematy\acc\software\enc.h	177;"	d	line:177
+MACON1_RXPAUS::0b00000100	E:\szkola\dr\schematy\acc\software\enc.h	176;"	d	line:176
+MACON1_TXPAUS::0b00001000	E:\szkola\dr\schematy\acc\software\enc.h	175;"	d	line:175
+MACON2::DUMMY_TRANSFER|BANK2|0x01	E:\szkola\dr\schematy\acc\software\enc.h	91;"	d	line:91
+MACON3::DUMMY_TRANSFER|BANK2|0x02	E:\szkola\dr\schematy\acc\software\enc.h	92;"	d	line:92
+MACON3_FRMLNEN::0b00000010	E:\szkola\dr\schematy\acc\software\enc.h	186;"	d	line:186
+MACON3_FULDPX::0b00000001	E:\szkola\dr\schematy\acc\software\enc.h	187;"	d	line:187
+MACON3_HFRMEN::0b00000100	E:\szkola\dr\schematy\acc\software\enc.h	185;"	d	line:185
+MACON3_PADCFG0::0b00100000	E:\szkola\dr\schematy\acc\software\enc.h	182;"	d	line:182
+MACON3_PADCFG1::0b01000000	E:\szkola\dr\schematy\acc\software\enc.h	181;"	d	line:181
+MACON3_PADCFG2::0b10000000	E:\szkola\dr\schematy\acc\software\enc.h	180;"	d	line:180
+MACON3_PHDREN::0b00001000	E:\szkola\dr\schematy\acc\software\enc.h	184;"	d	line:184
+MACON3_TXCRCEN::0b00010000	E:\szkola\dr\schematy\acc\software\enc.h	183;"	d	line:183
+MACON4::DUMMY_TRANSFER|BANK2|0x03	E:\szkola\dr\schematy\acc\software\enc.h	93;"	d	line:93
+MACON4_BPEN::0b00100000	E:\szkola\dr\schematy\acc\software\enc.h	190;"	d	line:190
+MACON4_DEFER::0b01000000	E:\szkola\dr\schematy\acc\software\enc.h	189;"	d	line:189
+MACON4_NOBKOFF::0b00010000	E:\szkola\dr\schematy\acc\software\enc.h	191;"	d	line:191
+MAIPGH::DUMMY_TRANSFER|BANK2|0x07	E:\szkola\dr\schematy\acc\software\enc.h	96;"	d	line:96
+MAIPGL::DUMMY_TRANSFER|BANK2|0x06	E:\szkola\dr\schematy\acc\software\enc.h	95;"	d	line:95
+MAMXFLH::DUMMY_TRANSFER|BANK2|0x0B	E:\szkola\dr\schematy\acc\software\enc.h	100;"	d	line:100
+MAMXFLL::DUMMY_TRANSFER|BANK2|0x0A	E:\szkola\dr\schematy\acc\software\enc.h	99;"	d	line:99
+MAPHSUP::DUMMY_TRANSFER|BANK2|0x0D	E:\szkola\dr\schematy\acc\software\enc.h	101;"	d	line:101
+MICMD::DUMMY_TRANSFER|BANK2|0x12	E:\szkola\dr\schematy\acc\software\enc.h	103;"	d	line:103
+MICMD_MIIRD::0b00000001	E:\szkola\dr\schematy\acc\software\enc.h	194;"	d	line:194
+MICMD_MIISCAN::0b00000010	E:\szkola\dr\schematy\acc\software\enc.h	193;"	d	line:193
+MICON::DUMMY_TRANSFER|BANK2|0x11	E:\szkola\dr\schematy\acc\software\enc.h	102;"	d	line:102
+MIRDH::DUMMY_TRANSFER|BANK2|0x19	E:\szkola\dr\schematy\acc\software\enc.h	108;"	d	line:108
+MIRDL::DUMMY_TRANSFER|BANK2|0x18	E:\szkola\dr\schematy\acc\software\enc.h	107;"	d	line:107
+MIREGADR::DUMMY_TRANSFER|BANK2|0x14	E:\szkola\dr\schematy\acc\software\enc.h	104;"	d	line:104
+MISTAT::DUMMY_TRANSFER|BANK3|0x0A	E:\szkola\dr\schematy\acc\software\enc.h	120;"	d	line:120
+MISTAT_BUSY::0b00000001	E:\szkola\dr\schematy\acc\software\enc.h	198;"	d	line:198
+MISTAT_NVALID::0b00000100	E:\szkola\dr\schematy\acc\software\enc.h	196;"	d	line:196
+MISTAT_SCAN::0b00000010	E:\szkola\dr\schematy\acc\software\enc.h	197;"	d	line:197
+MIWRH::DUMMY_TRANSFER|BANK2|0x17	E:\szkola\dr\schematy\acc\software\enc.h	106;"	d	line:106
+MIWRL::DUMMY_TRANSFER|BANK2|0x16	E:\szkola\dr\schematy\acc\software\enc.h	105;"	d	line:105
+NetworkChecksum	E:\szkola\dr\schematy\acc\software\net.c	6;"	f	line:6	signature:(const void* buffer, unsigned int len)
+OpenSPI	E:\szkola\dr\schematy\acc\software\spi_sw.h	4;"	p	line:4	signature:(void)
+PACKED	E:\szkola\dr\schematy\acc\software\net.h	13;"	v	line:13
+PACKED	E:\szkola\dr\schematy\acc\software\net.h	28;"	v	line:28
+PACKED	E:\szkola\dr\schematy\acc\software\net.h	49;"	v	line:49
+PACKED	E:\szkola\dr\schematy\acc\software\net.h	58;"	v	line:58
+PACKED::__attribute__((packed))	E:\szkola\dr\schematy\acc\software\net.h	7;"	d	line:7
+PHCON1::0x00	E:\szkola\dr\schematy\acc\software\enc.h	136;"	d	line:136
+PHCON1_PDPXMD::0b0000000100000000	E:\szkola\dr\schematy\acc\software\enc.h	204;"	d	line:204
+PHCON1_PLOOPBK::0b0100000000000000	E:\szkola\dr\schematy\acc\software\enc.h	202;"	d	line:202
+PHCON1_PPWRSV::0b0000100000000000	E:\szkola\dr\schematy\acc\software\enc.h	203;"	d	line:203
+PHCON1_PRST::0b1000000000000000	E:\szkola\dr\schematy\acc\software\enc.h	201;"	d	line:201
+PHCON2::0x10	E:\szkola\dr\schematy\acc\software\enc.h	140;"	d	line:140
+PHCON2_FRCLNK::0b0100000000000000	E:\szkola\dr\schematy\acc\software\enc.h	206;"	d	line:206
+PHCON2_HDLDIS::0b0000000100000000	E:\szkola\dr\schematy\acc\software\enc.h	209;"	d	line:209
+PHCON2_JABBER::0b0000010000000000	E:\szkola\dr\schematy\acc\software\enc.h	208;"	d	line:208
+PHCON2_TXDIS::0b0010000000000000	E:\szkola\dr\schematy\acc\software\enc.h	207;"	d	line:207
+PHID1::0x02	E:\szkola\dr\schematy\acc\software\enc.h	138;"	d	line:138
+PHID2::0x03	E:\szkola\dr\schematy\acc\software\enc.h	139;"	d	line:139
+PHIE::0x12	E:\szkola\dr\schematy\acc\software\enc.h	142;"	d	line:142
+PHIR::0x13	E:\szkola\dr\schematy\acc\software\enc.h	143;"	d	line:143
+PHLCON::0x14	E:\szkola\dr\schematy\acc\software\enc.h	144;"	d	line:144
+PHSTAT1::0x01	E:\szkola\dr\schematy\acc\software\enc.h	137;"	d	line:137
+PHSTAT2::0x11	E:\szkola\dr\schematy\acc\software\enc.h	141;"	d	line:141
+READ_BUFFER_MEMORY::0b00111010	E:\szkola\dr\schematy\acc\software\enc.h	327;"	d	line:327
+READ_CONTROL_REGISTER::0b00000000	E:\szkola\dr\schematy\acc\software\enc.h	326;"	d	line:326
+RECEIVED_STATUS	E:\szkola\dr\schematy\acc\software\enc.h	396;"	t	line:396
+REG_ECON1	E:\szkola\dr\schematy\acc\software\enc.h	233;"	u	line:233
+REG_MASK::0b00011111	E:\szkola\dr\schematy\acc\software\enc.h	29;"	d	line:29
+RXEN	E:\szkola\dr\schematy\acc\software\enc.h	237;"	m	line:237	struct:REG_ECON1::<anonymous>
+RXRST	E:\szkola\dr\schematy\acc\software\enc.h	241;"	m	line:241	struct:REG_ECON1::<anonymous>
+RX_END::0x0FFF	E:\szkola\dr\schematy\acc\software\enc.h	12;"	d	line:12
+RX_START::0x0000	E:\szkola\dr\schematy\acc\software\enc.h	11;"	d	line:11
+SCK::LATGbits.LATG6	E:\szkola\dr\schematy\acc\software\defs.h	11;"	d	line:11
+SDI::PORTGbits.RG7	E:\szkola\dr\schematy\acc\software\defs.h	9;"	d	line:9
+SDO::LATGbits.LATG8	E:\szkola\dr\schematy\acc\software\defs.h	10;"	d	line:10
+SENT_STATUS	E:\szkola\dr\schematy\acc\software\enc.h	367;"	t	line:367
+SOFT_RESET::0b11111111	E:\szkola\dr\schematy\acc\software\enc.h	333;"	d	line:333
+SPI_SEND_AND_WAIT::(value){IFS2bits.SPI2IF=0;SPI2	E:\szkola\dr\schematy\acc\software\enc.h	323;"	d	line:323
+SwapHardwareAddressess	E:\szkola\dr\schematy\acc\software\main.c	18;"	p	line:18	file:	signature:(ETH_ADDR* addr1, ETH_ADDR* addr2)
+SwapHardwareAddressess	E:\szkola\dr\schematy\acc\software\main.c	419;"	f	line:419	signature:(ETH_ADDR* addr1, ETH_ADDR* addr2)
+SwapHardwareAddressessETH	E:\szkola\dr\schematy\acc\software\main.c	21;"	p	line:21	file:	signature:(ETH_HEADER* ethernet_header)
+SwapHardwareAddressessETH	E:\szkola\dr\schematy\acc\software\main.c	428;"	f	line:428	signature:(ETH_HEADER* ethernet_header)
+TXRST	E:\szkola\dr\schematy\acc\software\enc.h	242;"	m	line:242	struct:REG_ECON1::<anonymous>
+TXRTS	E:\szkola\dr\schematy\acc\software\enc.h	238;"	m	line:238	struct:REG_ECON1::<anonymous>
+TX_END::0x1FFF	E:\szkola\dr\schematy\acc\software\enc.h	14;"	d	line:14
+TX_START::0x1000	E:\szkola\dr\schematy\acc\software\enc.h	13;"	d	line:13
+UDP_HEADER	E:\szkola\dr\schematy\acc\software\net.h	59;"	t	line:59
+WRITE_BUFFER_MEMORY::0b01111010	E:\szkola\dr\schematy\acc\software\enc.h	329;"	d	line:329
+WRITE_CONTROL_REGISTER::0b01000000	E:\szkola\dr\schematy\acc\software\enc.h	328;"	d	line:328
+WriteSPI16	E:\szkola\dr\schematy\acc\software\spi_sw.h	5;"	p	line:5	signature:(WORD value)
+WriteSPI8	E:\szkola\dr\schematy\acc\software\spi_sw.h	6;"	p	line:6	signature:(BYTE value)
+_DEFS_H_	E:\szkola\dr\schematy\acc\software\defs.h	2;"	d	line:2
+_NET_H_	E:\szkola\dr\schematy\acc\software\net.h	2;"	d	line:2
+_SPI_SW_H_	E:\szkola\dr\schematy\acc\software\spi_sw.h	2;"	d	line:2
+__ARP_HEADER	E:\szkola\dr\schematy\acc\software\net.h	72;"	s	line:72
+__DELAY_H__	E:\szkola\dr\schematy\acc\software\delay.h	2;"	d	line:2
+__ENC_H__	E:\szkola\dr\schematy\acc\software\enc.h	2;"	d	line:2
+__ETH_ADDR	E:\szkola\dr\schematy\acc\software\net.h	10;"	s	line:10
+__ETH_HEADER	E:\szkola\dr\schematy\acc\software\net.h	23;"	s	line:23
+__ICMP_HEADER	E:\szkola\dr\schematy\acc\software\net.h	62;"	s	line:62
+__IP_ADDR	E:\szkola\dr\schematy\acc\software\net.h	16;"	u	line:16
+__IP_HEADER	E:\szkola\dr\schematy\acc\software\net.h	31;"	s	line:31
+__UDP_HEADER	E:\szkola\dr\schematy\acc\software\net.h	52;"	s	line:52
+__delay32	E:\szkola\dr\schematy\acc\software\defs.h	13;"	p	line:13	signature:(DWORD cnt)
+__mac	E:\szkola\dr\schematy\acc\software\main.c	45;"	v	line:45
+__reserved1	E:\szkola\dr\schematy\acc\software\enc.h	359;"	m	line:359
+__reserved1	E:\szkola\dr\schematy\acc\software\enc.h	380;"	m	line:380
+__reserved2	E:\szkola\dr\schematy\acc\software\enc.h	365;"	m	line:365
+__reserved2	E:\szkola\dr\schematy\acc\software\enc.h	382;"	m	line:382
+__reserved3	E:\szkola\dr\schematy\acc\software\enc.h	394;"	m	line:394
+address	E:\szkola\dr\schematy\acc\software\net.h	18;"	m	line:18	union:__IP_ADDR
+arp	E:\szkola\dr\schematy\acc\software\main.c	96;"	l	line:96
+backpressure	E:\szkola\dr\schematy\acc\software\enc.h	363;"	m	line:363
+bank	E:\szkola\dr\schematy\acc\software\enc.c	41;"	l	line:41
+base	E:\szkola\dr\schematy\acc\software\inet_addr.c	27;"	l	line:27
+broadcast	E:\szkola\dr\schematy\acc\software\enc.h	353;"	m	line:353
+broadcast	E:\szkola\dr\schematy\acc\software\enc.h	388;"	m	line:388
+bufor	E:\szkola\dr\schematy\acc\software\main.c	34;"	v	line:34
+byte	E:\szkola\dr\schematy\acc\software\net.h	12;"	m	line:12	struct:__ETH_ADDR
+byte	E:\szkola\dr\schematy\acc\software\net.h	19;"	m	line:19	union:__IP_ADDR
+byte_count	E:\szkola\dr\schematy\acc\software\enc.h	346;"	m	line:346
+bytes	E:\szkola\dr\schematy\acc\software\enc.h	343;"	m	line:343
+bytes	E:\szkola\dr\schematy\acc\software\enc.h	373;"	m	line:373
+bytes_on_wire	E:\szkola\dr\schematy\acc\software\enc.h	360;"	m	line:360
+c	E:\szkola\dr\schematy\acc\software\inet_addr.c	28;"	l	line:28
+carrier_seen	E:\szkola\dr\schematy\acc\software\enc.h	381;"	m	line:381
+checksum	E:\szkola\dr\schematy\acc\software\net.h	42;"	m	line:42	struct:__IP_HEADER
+checksum	E:\szkola\dr\schematy\acc\software\net.h	57;"	m	line:57	struct:__UDP_HEADER
+checksum	E:\szkola\dr\schematy\acc\software\net.h	66;"	m	line:66	struct:__ICMP_HEADER
+chk	E:\szkola\dr\schematy\acc\software\net.c	9;"	l	line:9
+chk_upper	E:\szkola\dr\schematy\acc\software\net.c	10;"	l	line:10
+code	E:\szkola\dr\schematy\acc\software\net.h	65;"	m	line:65	struct:__ICMP_HEADER
+collision_count	E:\szkola\dr\schematy\acc\software\enc.h	347;"	m	line:347
+control_frame	E:\szkola\dr\schematy\acc\software\enc.h	361;"	m	line:361
+control_frame	E:\szkola\dr\schematy\acc\software\enc.h	390;"	m	line:390
+crc_error	E:\szkola\dr\schematy\acc\software\enc.h	348;"	m	line:348
+crc_error	E:\szkola\dr\schematy\acc\software\enc.h	383;"	m	line:383
+current_bank	E:\szkola\dr\schematy\acc\software\enc.c	8;"	v	line:8	file:
+defer	E:\szkola\dr\schematy\acc\software\enc.h	354;"	m	line:354
+destination	E:\szkola\dr\schematy\acc\software\net.h	25;"	m	line:25	struct:__ETH_HEADER
+destination_ip	E:\szkola\dr\schematy\acc\software\net.h	45;"	m	line:45	struct:__IP_HEADER
+destination_port	E:\szkola\dr\schematy\acc\software\net.h	55;"	m	line:55	struct:__UDP_HEADER
+done	E:\szkola\dr\schematy\acc\software\enc.h	351;"	m	line:351
+dribble_nibble	E:\szkola\dr\schematy\acc\software\enc.h	389;"	m	line:389
+dummy	E:\szkola\dr\schematy\acc\software\enc.c	9;"	v	line:9	file:
+dummy	E:\szkola\dr\schematy\acc\software\main.c	28;"	v	line:28	file:
+econ1	E:\szkola\dr\schematy\acc\software\enc.c	45;"	l	line:45
+eth0	E:\szkola\dr\schematy\acc\software\main.c	43;"	v	line:43
+eth_header	E:\szkola\dr\schematy\acc\software\main.c	64;"	l	line:64
+excessive_collision	E:\szkola\dr\schematy\acc\software\enc.h	356;"	m	line:356
+excessive_defer	E:\szkola\dr\schematy\acc\software\enc.h	355;"	m	line:355
+flags	E:\szkola\dr\schematy\acc\software\net.h	38;"	m	line:38	struct:__IP_HEADER
+frag_offset	E:\szkola\dr\schematy\acc\software\net.h	39;"	m	line:39	struct:__IP_HEADER
+frame_length	E:\szkola\dr\schematy\acc\software\enc.h	378;"	m	line:378
+giant	E:\szkola\dr\schematy\acc\software\enc.h	358;"	m	line:358
+hardware_length	E:\szkola\dr\schematy\acc\software\net.h	77;"	m	line:77	struct:__ARP_HEADER
+hardware_type	E:\szkola\dr\schematy\acc\software\net.h	74;"	m	line:74	struct:__ARP_HEADER
+htonl	E:\szkola\dr\schematy\acc\software\inet_addr.c	115;"	f	line:115	file:	signature:(unsigned long int x)
+htonl	E:\szkola\dr\schematy\acc\software\inet_addr.c	11;"	p	line:11	file:	signature:(unsigned long int x)
+i	E:\szkola\dr\schematy\acc\software\delay.c	9;"	l	line:9
+i	E:\szkola\dr\schematy\acc\software\main.c	69;"	l	line:69
+icmp_header	E:\szkola\dr\schematy\acc\software\main.c	67;"	l	line:67
+id	E:\szkola\dr\schematy\acc\software\net.h	37;"	m	line:37	struct:__IP_HEADER
+identifier	E:\szkola\dr\schematy\acc\software\net.h	67;"	m	line:67	struct:__ICMP_HEADER
+ihl	E:\szkola\dr\schematy\acc\software\net.h	33;"	m	line:33	struct:__IP_HEADER
+inet_addr	E:\szkola\dr\schematy\acc\software\inet_addr.c	12;"	p	line:12	file:	signature:(const char* cp)
+inet_addr	E:\szkola\dr\schematy\acc\software\inet_addr.c	16;"	f	line:16	signature:(const char* cp)
+inet_addr	E:\szkola\dr\schematy\acc\software\net.h	111;"	p	line:111	signature:(const char* cp)
+inet_aton	E:\szkola\dr\schematy\acc\software\inet_addr.c	13;"	p	line:13	file:	signature:(const char *cp, unsigned long int *addr)
+inet_aton	E:\szkola\dr\schematy\acc\software\inet_addr.c	24;"	f	line:24	signature:(const char *cp, unsigned long int *addr)
+inet_aton	E:\szkola\dr\schematy\acc\software\net.h	110;"	p	line:110	signature:(const char *cp, unsigned long int *addr)
+ip	E:\szkola\dr\schematy\acc\software\inet_addr.c	18;"	l	line:18
+ip	E:\szkola\dr\schematy\acc\software\main.c	39;"	m	line:39	struct:ETH	file:
+ip_header	E:\szkola\dr\schematy\acc\software\main.c	65;"	l	line:65
+ip_id	E:\szkola\dr\schematy\acc\software\main.c	41;"	m	line:41	struct:ETH	file:
+late_collision	E:\szkola\dr\schematy\acc\software\enc.h	357;"	m	line:357
+len	E:\szkola\dr\schematy\acc\software\main.c	405;"	l	line:405
+len	E:\szkola\dr\schematy\acc\software\main.c	62;"	l	line:62
+length	E:\szkola\dr\schematy\acc\software\net.h	36;"	m	line:36	struct:__IP_HEADER
+length	E:\szkola\dr\schematy\acc\software\net.h	56;"	m	line:56	struct:__UDP_HEADER
+length_check_error	E:\szkola\dr\schematy\acc\software\enc.h	349;"	m	line:349
+length_check_error	E:\szkola\dr\schematy\acc\software\enc.h	384;"	m	line:384
+length_out_of_range	E:\szkola\dr\schematy\acc\software\enc.h	350;"	m	line:350
+length_out_of_range	E:\szkola\dr\schematy\acc\software\enc.h	385;"	m	line:385
+long_or_drop	E:\szkola\dr\schematy\acc\software\enc.h	379;"	m	line:379
+mac	E:\szkola\dr\schematy\acc\software\enc.c	190;"	l	line:190
+mac	E:\szkola\dr\schematy\acc\software\main.c	40;"	m	line:40	struct:ETH	file:
+main	E:\szkola\dr\schematy\acc\software\main.c	46;"	f	line:46	signature:(void)
+multicast	E:\szkola\dr\schematy\acc\software\enc.h	352;"	m	line:352
+multicast	E:\szkola\dr\schematy\acc\software\enc.h	387;"	m	line:387
+n	E:\szkola\dr\schematy\acc\software\inet_addr.c	27;"	l	line:27
+next_packet_address	E:\szkola\dr\schematy\acc\software\enc.h	376;"	m	line:376
+next_packet_ptr	E:\szkola\dr\schematy\acc\software\main.c	29;"	v	line:29	file:
+opcode	E:\szkola\dr\schematy\acc\software\net.h	80;"	m	line:80	struct:__ARP_HEADER
+parts	E:\szkola\dr\schematy\acc\software\inet_addr.c	29;"	l	line:29
+pause_control_frame	E:\szkola\dr\schematy\acc\software\enc.h	362;"	m	line:362
+pause_control_frame	E:\szkola\dr\schematy\acc\software\enc.h	391;"	m	line:391
+phcon1	E:\szkola\dr\schematy\acc\software\enc.h	221;"	m	line:221
+phcon2	E:\szkola\dr\schematy\acc\software\enc.h	225;"	m	line:225
+phid1	E:\szkola\dr\schematy\acc\software\enc.h	223;"	m	line:223
+phid2	E:\szkola\dr\schematy\acc\software\enc.h	224;"	m	line:224
+phie	E:\szkola\dr\schematy\acc\software\enc.h	227;"	m	line:227
+phir	E:\szkola\dr\schematy\acc\software\enc.h	228;"	m	line:228
+phlcon	E:\szkola\dr\schematy\acc\software\enc.h	229;"	m	line:229
+phstat1	E:\szkola\dr\schematy\acc\software\enc.h	222;"	m	line:222
+phstat2	E:\szkola\dr\schematy\acc\software\enc.h	226;"	m	line:226
+phy	E:\szkola\dr\schematy\acc\software\main.c	302;"	l	line:302
+pp	E:\szkola\dr\schematy\acc\software\inet_addr.c	30;"	l	line:30
+protocol	E:\szkola\dr\schematy\acc\software\net.h	41;"	m	line:41	struct:__IP_HEADER
+protocol_length	E:\szkola\dr\schematy\acc\software\net.h	78;"	m	line:78	struct:__ARP_HEADER
+protocol_type	E:\szkola\dr\schematy\acc\software\net.h	75;"	m	line:75	struct:__ARP_HEADER
+ptr	E:\szkola\dr\schematy\acc\software\net.c	8;"	l	line:8
+q3	E:\szkola\dr\schematy\acc\software\main.c	60;"	l	line:60
+recv_ok	E:\szkola\dr\schematy\acc\software\enc.h	386;"	m	line:386
+reg	E:\szkola\dr\schematy\acc\software\enc.c	152;"	l	line:152
+reg	E:\szkola\dr\schematy\acc\software\enc.c	170;"	l	line:170
+reg	E:\szkola\dr\schematy\acc\software\enc.c	55;"	l	line:55
+reg	E:\szkola\dr\schematy\acc\software\enc.c	85;"	l	line:85
+s	E:\szkola\dr\schematy\acc\software\inet_addr.c	117;"	l	line:117
+sender_ip	E:\szkola\dr\schematy\acc\software\net.h	83;"	m	line:83	struct:__ARP_HEADER
+sender_mac	E:\szkola\dr\schematy\acc\software\net.h	82;"	m	line:82	struct:__ARP_HEADER
+sequence_number	E:\szkola\dr\schematy\acc\software\net.h	68;"	m	line:68	struct:__ICMP_HEADER
+source	E:\szkola\dr\schematy\acc\software\net.h	26;"	m	line:26	struct:__ETH_HEADER
+source_ip	E:\szkola\dr\schematy\acc\software\net.h	44;"	m	line:44	struct:__IP_HEADER
+source_port	E:\szkola\dr\schematy\acc\software\net.h	54;"	m	line:54	struct:__UDP_HEADER
+srev	E:\szkola\dr\schematy\acc\software\main.c	260;"	l	line:260
+status	E:\szkola\dr\schematy\acc\software\main.c	397;"	l	line:397
+target_ip	E:\szkola\dr\schematy\acc\software\net.h	85;"	m	line:85	struct:__ARP_HEADER
+target_mac	E:\szkola\dr\schematy\acc\software\net.h	84;"	m	line:84	struct:__ARP_HEADER
+temp	E:\szkola\dr\schematy\acc\software\main.c	421;"	l	line:421
+temp	E:\szkola\dr\schematy\acc\software\main.c	430;"	l	line:430
+temp_ip	E:\szkola\dr\schematy\acc\software\main.c	141;"	l	line:141
+ttl	E:\szkola\dr\schematy\acc\software\net.h	40;"	m	line:40	struct:__IP_HEADER
+type	E:\szkola\dr\schematy\acc\software\net.h	27;"	m	line:27	struct:__ETH_HEADER
+type	E:\szkola\dr\schematy\acc\software\net.h	35;"	m	line:35	struct:__IP_HEADER
+type	E:\szkola\dr\schematy\acc\software\net.h	64;"	m	line:64	struct:__ICMP_HEADER
+udp_header	E:\szkola\dr\schematy\acc\software\main.c	66;"	l	line:66
+unknown_opcode	E:\szkola\dr\schematy\acc\software\enc.h	392;"	m	line:392
+val	E:\szkola\dr\schematy\acc\software\inet_addr.c	26;"	l	line:26
+value	E:\szkola\dr\schematy\acc\software\enc.h	244;"	m	line:244	union:REG_ECON1
+version	E:\szkola\dr\schematy\acc\software\net.h	34;"	m	line:34	struct:__IP_HEADER
+vlan	E:\szkola\dr\schematy\acc\software\enc.h	364;"	m	line:364
+vlan	E:\szkola\dr\schematy\acc\software\enc.h	393;"	m	line:393
+wb	E:\szkola\dr\schematy\acc\software\enc.c	129;"	l	line:129
